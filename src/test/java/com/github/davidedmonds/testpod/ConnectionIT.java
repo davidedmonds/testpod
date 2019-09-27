@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 
 @ExtendWith(TestPodExtension.class)
-class ConnectionTest {
+class ConnectionIT {
     @DisplayName("A connection with Kubernetes is established")
     @Test void canTalkToKubernetes() {
 
